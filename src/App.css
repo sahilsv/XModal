@@ -1,0 +1,136 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app.dimmed {
+  background-color: rgba(0,0,0,0.5);
+}
+
+header {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  margin: 15px;
+}
+
+.form-btn {
+  margin: 10px auto 40px auto;
+  background-color: #2e82d6;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  padding: 6px 16px;
+
+}
+
+.form-btn:hover {
+  background-color: #176bc0;
+}
+
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 500px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  box-shadow: 0.2rem 0.8rem 1.6rem #675c60;
+}
+
+.modal-content {
+  width: 500px;
+  height: 500px;
+  background-color: #fff;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  text-align: center;
+}
+
+label {
+  font-weight: 600;
+}
+
+input {
+  width: 80%;
+  align-self: center;
+  height: 28px;
+  appearance: none;
+	border-bottom: .2em solid #675c60;
+	background: rgba(#675c60, .2);
+	border-radius: 5px;
+	padding: .4em;
+	color: #675c60;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.submitBtn-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.submit-button {
+  background-color: #2e82d6;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  padding: 6px 16px;
+  width: 80px;
+}
+
+.submit-button:hover {
+  background-color: #176bc0;
+}
+
+/* CSS */
+/* button {
+  appearance: none;
+  width: 95px;
+  background-color: #2e82d6;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+
+} */
