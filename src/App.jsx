@@ -48,7 +48,7 @@ const App = () => {
     }
 
     // Handle successful form submission here
-    e.preventDefault();
+    // e.preventDefault();
     // Close the form after submission
     closeForm();
   };
