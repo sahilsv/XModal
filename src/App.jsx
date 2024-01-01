@@ -23,16 +23,12 @@ const App = () => {
     }
   };
 
-  const handleSubmit = () => {
+  const handleSubmit = (e) => {
+    e.preventDefault();
     const username = usernameRef.current.value;
     const email = emailRef.current.value;
     const phone = phoneRef.current.value;
     const dob = dobRef.current.value;
-
-    // if (!username || !email || !phone || !dob) {
-    //   alert("All fields are required");
-    //   return;
-    // }
 
     if (!email.includes("@")) {
       alert("Invalid email");
