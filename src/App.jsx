@@ -29,10 +29,10 @@ const App = () => {
     const phone = phoneRef.current.value;
     const dob = dobRef.current.value;
 
-    if (!username || !email || !phone || !dob) {
-      alert("All fields are required");
-      return;
-    }
+    // if (!username || !email || !phone || !dob) {
+    //   alert("All fields are required");
+    //   return;
+    // }
 
     if (!email.includes("@")) {
       alert("Invalid email");
