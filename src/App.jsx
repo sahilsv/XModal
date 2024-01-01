@@ -40,7 +40,7 @@ const App = () => {
     }
 
     if (!/^\d{10}$/.test(phone)) {
-      alert("Invalid phone number. Please enter a 10-digit phone number.");
+      alert("Invalid phone number");
       return;
     }
 
@@ -48,7 +48,7 @@ const App = () => {
     const inputDate = new Date(dob);
 
     if (inputDate > currentDate) {
-      alert("Invalid date of birth. Please enter a valid date.");
+      alert("Invalid date of birth");
       return;
     }
 
