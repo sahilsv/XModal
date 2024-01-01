@@ -35,7 +35,7 @@ const App = () => {
     }
 
     if (!email.includes("@")) {
-      alert("Invalid email. Please check your email address.");
+      alert("Invalid email");
       return;
     }
 
