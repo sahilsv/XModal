@@ -1,4 +1,4 @@
-import {useState, useRef} from "react";
+import { useState, useRef } from "react";
 import "./App.css";
 
 const App = () => {
@@ -24,7 +24,6 @@ const App = () => {
   };
 
   const handleSubmit = (e) => {
-    e.preventDefault();
     const username = usernameRef.current.value;
     const email = emailRef.current.value;
     const phone = phoneRef.current.value;
@@ -49,20 +48,22 @@ const App = () => {
     }
 
     // Handle successful form submission here
-
+    e.preventDefault();
     // Close the form after submission
     closeForm();
   };
 
   return (
-    <div className={`app ${isFormOpen ? 'dimmed' : ''}`} onClick={handleClickOutside}>
+    <div
+      className={`app ${isFormOpen ? "dimmed" : ""}`}
+      onClick={handleClickOutside}
+    >
       <header>User Details Modal</header>
       <button className="form-btn" onClick={openForm}>
         Open Form
       </button>
 
       {isFormOpen && (
-
         <div className="modal">
           <div className="modal-content" ref={formRef}>
             <form>
