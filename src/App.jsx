@@ -34,7 +34,7 @@ const App = () => {
       return;
     }
 
-    if (!/^\d{10}$/.test(phone)) {
+    if (phone.length !== 10 || isNaN(phone)) {
       alert("Invalid phone number");
       return;
     }
@@ -55,7 +55,7 @@ const App = () => {
 
   return (
     <div
-      className={`modal ${isFormOpen ? "dimmed" : ""}`}
+      className={`app ${isFormOpen ? "dimmed" : ""}`}
       onClick={handleClickOutside}
     >
       <header>User Details Modal</header>
@@ -64,7 +64,7 @@ const App = () => {
       </button>
 
       {isFormOpen && (
-        
+        <div className="modal">
           <div className="modal-content" ref={formRef}>
             <form>
               <h2>Fill Details</h2>
@@ -90,7 +90,7 @@ const App = () => {
               {/* <div className="submitBtn-div"></div> */}
             </form>
           </div>
-        
+        </div>
       )}
     </div>
   );
