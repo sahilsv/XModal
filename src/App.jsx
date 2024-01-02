@@ -10,11 +10,11 @@ const App = () => {
   const formRef = useRef(null);
 
   const openForm = () => {
-    setIsFormOpen(!isFormOpen);
+    setIsFormOpen(true);
   };
 
   const closeForm = () => {
-    setIsFormOpen(!isFormOpen);
+    setIsFormOpen(false);
   };
 
   const handleClickOutside = (e) => {
