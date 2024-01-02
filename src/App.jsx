@@ -59,7 +59,7 @@ const App = () => {
       onClick={handleClickOutside}
     >
       <header>User Details Modal</header>
-      <button className="form-btn" onClick={openForm}>
+      <button className="submit-button" onClick={openForm}>
         Open Form
       </button>
 

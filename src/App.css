@@ -99,8 +99,9 @@ input {
   font-weight: 500;
   line-height: 20px;
   padding: 6px 16px;
-  width: 80px;
+  width: 90px;
   margin: auto;
+  text-wrap:nowrap ;
 }
 
 .submit-button:hover {
