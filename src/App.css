@@ -80,11 +80,11 @@ input {
   font-size: 15px;
 }
 
-.submitBtn-div {
+/* .submitBtn-div {
   display: flex;
   justify-content: center;
   margin-top: 15px;
-}
+} */
 
 .submit-button {
   background-color: #2e82d6;
@@ -100,37 +100,10 @@ input {
   line-height: 20px;
   padding: 6px 16px;
   width: 80px;
+  margin: auto;
 }
 
 .submit-button:hover {
   background-color: #176bc0;
 }
 
-/* CSS */
-/* button {
-  appearance: none;
-  width: 95px;
-  background-color: #2e82d6;
-  border: 1px solid rgba(27, 31, 35, .15);
-  border-radius: 6px;
-  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
-  box-sizing: border-box;
-  color: #fff;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 20px;
-  padding: 6px 16px;
-  position: relative;
-  text-align: center;
-  text-decoration: none;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  vertical-align: middle;
-  white-space: nowrap;
-
-} */

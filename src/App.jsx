@@ -48,7 +48,7 @@ const App = () => {
     }
 
     // Handle successful form submission here
-    // e.preventDefault();
+    e.preventDefault();
     // Close the form after submission
     closeForm();
   };
@@ -80,15 +80,14 @@ const App = () => {
               <label htmlFor="dob">Date of Birth:</label>
               <input type="date" id="dob" ref={dobRef} required />
 
-              <div className="submitBtn-div">
-                <button
-                  type="button"
-                  className="submit-button"
-                  onClick={handleSubmit}
-                >
-                  Submit
-                </button>
-              </div>
+              <button
+                type="button"
+                className="submit-button"
+                onClick={handleSubmit}
+              >
+                Submit
+              </button>
+              {/* <div className="submitBtn-div"></div> */}
             </form>
           </div>
         </div>
