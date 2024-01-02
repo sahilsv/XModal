@@ -64,8 +64,8 @@ const App = () => {
       </button>
 
       {isFormOpen && (
-        <div className="modal">
-          <div className="modal-content" ref={formRef}>
+        <div className="modal" ref={formRef}>
+          <div className="modal-content">
             <form>
               <h2>Fill Details</h2>
               <label htmlFor="username">Username:</label>
