@@ -29,6 +29,11 @@ const App = () => {
     const phone = phoneRef.current.value;
     const dob = dobRef.current.value;
 
+    if(username.length === 0) {
+      alert("All fields are required");
+      return;
+    }
+
     if (!email.includes("@")) {
       alert("Invalid email");
       return;
@@ -55,7 +60,7 @@ const App = () => {
 
   return (
     <div
-      className={`app ${isFormOpen ? "dimmed" : ""}`}
+      className={`modal ${isFormOpen ? "dimmed" : ""}`}
       onClick={handleClickOutside}
     >
       <header>User Details Modal</header>
@@ -64,7 +69,7 @@ const App = () => {
       </button>
 
       {isFormOpen && (
-        <div className="modal">
+        
           <div className="modal-content" ref={formRef}>
             <form>
               <h2>Fill Details</h2>
@@ -90,7 +95,7 @@ const App = () => {
               {/* <div className="submitBtn-div"></div> */}
             </form>
           </div>
-        </div>
+        
       )}
     </div>
   );

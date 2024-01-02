@@ -1,4 +1,4 @@
-.app {
+/* .app {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -7,7 +7,7 @@
 
 .app.dimmed {
   background-color: rgba(0,0,0,0.5);
-}
+} */
 
 header {
   font-size: 30px;
@@ -38,6 +38,30 @@ header {
 }
 
 .modal {
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 500px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  box-shadow: 0.2rem 0.8rem 1.6rem #675c60; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal.dimmed {
+  background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content {
+  /* width: 500px;
+  height: 500px;
+  background-color: #fff; */
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -46,11 +70,6 @@ header {
   border-radius: 5px;
   margin-bottom: 30px;
   box-shadow: 0.2rem 0.8rem 1.6rem #675c60;
-}
-
-.modal-content {
-  width: 500px;
-  height: 500px;
   background-color: #fff;
 }
 
@@ -59,6 +78,7 @@ form {
   flex-direction: column;
   justify-content: center;
   gap: 10px;
+  width: 80%;
   text-align: center;
 }
 
