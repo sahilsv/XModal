@@ -1,4 +1,4 @@
-/* .app {
+.app {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -7,7 +7,7 @@
 
 .app.dimmed {
   background-color: rgba(0,0,0,0.5);
-} */
+}
 
 header {
   font-size: 30px;
@@ -58,9 +58,9 @@ header {
   align-items: center;
 }
 
-.modal.dimmed {
+/* .modal.dimmed {
   background-color: rgba(0,0,0,0.5);
-}
+} */
 
 .modal-content {
   /* display: flex;
