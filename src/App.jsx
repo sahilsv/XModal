@@ -58,7 +58,7 @@ const App = () => {
   };
 
   return (
-    <div className='app' onClick={handleClickOutside}>
+    <div className={`app ${isFormOpen ? "dimmed" : ""}`}  onClick={handleClickOutside}>
       <header>User Details Modal</header>
       <button className="submit-button" onClick={openForm}>
         Open Form
