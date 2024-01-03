@@ -44,6 +44,7 @@ header {
   width: 550px;
   height: 550px;
   border-radius: 5px;
+  margin-top: 15px;
   margin-bottom: 30px;
   box-shadow: 0.2rem 0.8rem 1.6rem #675c60;
   background-color: #fff;
@@ -69,8 +70,8 @@ form {
   flex-direction: column;
   justify-content: center;
   gap: 10px;
-  width: 400px;
-  height: 400px;
+  width: 480px;
+  height: 480px;
   text-align: center;
 }
 
