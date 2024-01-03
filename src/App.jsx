@@ -18,7 +18,11 @@ const App = () => {
   };
 
   const handleClickOutside = (e) => {
-    if (formRef.current && !formRef.current.contains(e.target)) {
+    // if (formRef.current && !formRef.current.contains(e.target)) {
+    //   closeForm();
+    // }
+
+    if(e.target.className == 'modal' || (formRef.current && !formRef.current.contains(e.target))) {
       closeForm();
     }
   };

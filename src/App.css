@@ -56,11 +56,11 @@ header {
 
 .modal-content {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   justify-content: center;
-  align-items: center;
-  width: 500px;
-  height: 500px;
+  /* align-items: center; */
+  /* width: 500px; */
+  /* height: 500px; */
   background-color: #fff;
 }
 
@@ -69,7 +69,8 @@ form {
   flex-direction: column;
   justify-content: center;
   gap: 10px;
-  width: 80%;
+  width: 400px;
+  height: 400px;
   text-align: center;
 }
 
