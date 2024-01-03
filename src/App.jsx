@@ -59,7 +59,7 @@ const App = () => {
 
   return (
     <div
-      className={`modal ${isFormOpen ? "dimmed" : ""}`}
+      className={`modal`}
       onClick={handleClickOutside}
     >
       <header>User Details Modal</header>
